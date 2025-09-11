@@ -10,15 +10,15 @@ import { Amplify } from 'aws-amplify';
 import { Authenticator, Button, Flex, Heading } from '@aws-amplify/ui-react';
 Amplify.configure(config);
 
-import { fetchUserAttributes } from 'aws-amplify/auth';
+// import { fetchUserAttributes } from 'aws-amplify/auth';
 
 
 const { StorageBrowser } = createStorageBrowser({
   config: createAmplifyAuthAdapter(),
 });
 
-const userAttributes = await fetchUserAttributes();
-console.log(userAttributes);
+// const userAttributes = await fetchUserAttributes();
+// console.log(userAttributes);
 
 function App() {
   
