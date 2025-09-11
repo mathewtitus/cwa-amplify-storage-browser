@@ -28,8 +28,8 @@ function App() {
       {({ signOut, user }) => (
         <>
           <Flex direction="row" alignItems="center" wrap="nowrap" gap="1rem">
-            <Heading level={4}>{``}</Heading>
-            {/*<Heading level={4}>{`Hello ${user?.username}`}</Heading>*/}
+            {/*<Heading level={4}>{``}</Heading>*/}
+            <Heading level={4}>{`Hello ${user?.username}`}</Heading>
             {/*<Heading level={4}>{`Hello ${userAttributes.name}`}</Heading>*/}
             <Button onClick={signOut}>Sign out</Button>
           </Flex>
