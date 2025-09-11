@@ -1,7 +1,9 @@
 #root {
   margin: 0 auto;
   padding: 2rem;
+  padding-top: 80px;
   text-align: center;
+  height: 100%;
 }
 
 .header {
@@ -11,11 +13,13 @@
 }
 
 #footer {
-  position: absolute;
-  bottom: 0px;
+  position: sticky;
+  top: 0px;
   width: 100%;
 }
 
 #logo {
-  width: 300px;
+  position: absolute;
+  right: 0px;
+  width: 240px;
 }
