@@ -11,11 +11,11 @@ export const auth = defineAuth({
 
   groups: ['admin'],
   
-  userAttributes: {
-    // specify a "name" attribute
-    name: {
-      mutable: true,
-      required: false,
-    }
-  },
+  // userAttributes: {
+  //   // specify a "name" attribute
+  //   name: {
+  //     mutable: true,
+  //     required: false,
+  //   }
+  // },
 });
